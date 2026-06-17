@@ -1,0 +1,51 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>0</x><y>100</y><w>200</w><h>140</h></coordinates><panel_attributes>symbol=component
+«Microservice»
+*Microservicepet*
+--
+Port: 9091
+DB: microservicepet
+--
+Entities:
+- Pet
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>0</x><y>300</y><w>200</w><h>140</h></coordinates><panel_attributes>symbol=component
+«Microservice»
+*Microserviceadopter*
+--
+Port: 9092
+DB: microserviceadopter
+--
+Entities:
+- Adopter
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>360</x><y>200</y><w>220</w><h>150</h></coordinates><panel_attributes>symbol=component
+«Microservice»
+*Microserviceadoptionrequest*
+--
+Port: 9093
+DB: microserviceadoptionrequest
+--
+Entities:
+- AdoptionRequest
+- Pet
+- Adopter
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>150</y><w>190</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+m1=OpenFeign
+Consulta Mascota</panel_attributes><additional_attributes>10;10;170;100</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>290</y><w>190</w><h>100</h></coordinates><panel_attributes>lt=&lt;-
+m1=OpenFeign
+Consulta Adoptante</panel_attributes><additional_attributes>10;80;170;10</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>30</x><y>0</y><w>140</w><h>60</h></coordinates><panel_attributes>valign=center
+halign=center
+Database
+(MySQL)
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>50</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>30</x><y>480</y><w>140</w><h>60</h></coordinates><panel_attributes>valign=center
+halign=center
+Database
+(MySQL)
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>430</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>400</x><y>0</y><w>140</w><h>60</h></coordinates><panel_attributes>valign=center
+halign=center
+Database
+(MySQL)
+bg=gray</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>50</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;150;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>530</y><w>210</w><h>70</h></coordinates><panel_attributes>EurekaServer
+--
+"Discovery Server"
+microservicepet= ip:port, ip:port
+microserviceadopter= ip:port, ip:port
+microserviceadoptionrequest= ip:port, ip:port</panel_attributes><additional_attributes></additional_attributes></element></diagram>

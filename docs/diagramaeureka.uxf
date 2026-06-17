@@ -1,0 +1,19 @@
+<diagram program="umletino" version="15.1"><zoom_level>6</zoom_level><element><id>UMLClass</id><coordinates><x>288</x><y>24</y><w>318</w><h>126</h></coordinates><panel_attributes>EurekaServer
+fontsize=21
+"Discovery Server"
+
+microservicepet=ip:port, ip:port, ip:portN
+microserviceadopter= ip:port, ip:port…
+microserviceadptionrequest=ip:port, ip:port
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>138</x><y>144</y><w>186</w><h>102</h></coordinates><panel_attributes>lt=<-</panel_attributes><additional_attributes>10;150;290;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>78</x><y>234</y><w>114</w><h>36</h></coordinates><panel_attributes>MicroservicePet
+LoadBalancer
+fontsize=19</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>6</x><y>312</y><w>138</w><h>60</h></coordinates><panel_attributes>Microservicepet
+fontsize=22</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>162</x><y>312</y><w>138</w><h>60</h></coordinates><panel_attributes>Microservicepet
+fontsize=22</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>72</x><y>264</y><w>60</w><h>60</h></coordinates><panel_attributes>lt=<-</panel_attributes><additional_attributes>10;80;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>144</x><y>264</y><w>90</w><h>60</h></coordinates><panel_attributes>lt=<-</panel_attributes><additional_attributes>130;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>222</y><w>114</w><h>36</h></coordinates><panel_attributes>MicroserviceAdopter
+LoadBalancer
+fontsize=19</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>210</y><w>126</w><h>36</h></coordinates><panel_attributes>MicroserviceAdoption
+LoadBalancer
+fontsize=19</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>324</x><y>306</y><w>144</w><h>66</h></coordinates><panel_attributes>MicroserviceAdopter
+fontsize=22</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>252</y><w>144</w><h>66</h></coordinates><panel_attributes>lt=<-</panel_attributes><additional_attributes>220;90;10;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>504</x><y>306</y><w>144</w><h>66</h></coordinates><panel_attributes>MicroserviceAdopter
+fontsize=22</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>252</y><w>42</w><h>66</h></coordinates><panel_attributes>lt=<-</panel_attributes><additional_attributes>10;90;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>444</x><y>144</y><w>48</w><h>90</h></coordinates><panel_attributes>lt=<-</panel_attributes><additional_attributes>10;130;60;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>672</x><y>306</y><w>228</w><h>60</h></coordinates><panel_attributes>MicroserviceAdoptionRequest
+fontsize=22</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>582</x><y>144</y><w>174</w><h>78</h></coordinates><panel_attributes>lt=<-</panel_attributes><additional_attributes>270;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>762</x><y>240</y><w>18</w><h>78</h></coordinates><panel_attributes>lt=<-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element></diagram>
