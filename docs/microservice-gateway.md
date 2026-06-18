@@ -28,3 +28,9 @@ Para crear este microservicio en Spring Initializr se deben agregar:
 ### Configuración principal
 
 Para este proyecto, el API Gateway usará el puerto 8888.
+
+## Variables de ambiente usadas por el microservicio.
+
+- **PORT default(8888)**: Representa el puerto donde se ejecuta el microservicio.
+- **EUREKA_IP default(localhost)**: Representa la dirección IP o el nombre de host donde se encuentra Eureka Server.
+- **EUREKA_PORT default(9999)**: Representa el puerto de Eureka Server.
