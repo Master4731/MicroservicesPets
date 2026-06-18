@@ -46,3 +46,5 @@ Al comunicarse con los microservicios de mascotas y adoptantes se deben implemen
 - **DB_PASSWORD default(root)**: Representa la contraseña de la base de datos.
 - **EUREKA_IP default(localhost)**: Representa la dirección IP o el nombre de host donde se encuentra Eureka Server.
 - **EUREKA_PORT default(9999)**: Representa el puerto de Eureka Server.
+- **CONFIG_IP default(localhost)**: Representa la dirección IP o el nombre de host donde se encuentra Config Server.
+- **CONFIG_PORT default(7777)**: Representa el puerto de Config Server.
